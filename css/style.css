@@ -1,0 +1,59 @@
+
+/* --- Polish: layout + spacing --- */
+header {
+  background: #222;
+  color: white;
+  padding: 1rem;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+  padding: 0.25rem 0;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* --- Hero polish --- */
+.hero img {
+  width: 100%;
+  max-height: 480px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* --- Mobile friendly nav --- */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 0.25rem 0;
+  }
+}
+/* --- Services: multi-column layout --- */
+.card-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  border: 2px solid #000;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+@media (min-width: 800px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
