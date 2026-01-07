@@ -57,3 +57,7 @@ main {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
