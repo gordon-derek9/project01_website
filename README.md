@@ -37,3 +37,6 @@ https://gordon-derek9.github.io/project01_website/
 1. Add a consistent footer and stronger layout styling across all pages
 2. Add a gallery page with more episode images and captions
 3. Add basic form feedback (thank-you message) using JavaScript
+## Screenshots
+
+Screenshots of the Home, About, Services, and Contact pages.
